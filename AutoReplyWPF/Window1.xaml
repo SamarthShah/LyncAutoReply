@@ -1,0 +1,12 @@
+<Window x:Class="AutoReplyWPF.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:Microsoft.Lync.Controls;assembly=Microsoft.Lync.Controls"
+    Title="AutoReply" Height="150" Width="400">
+    <Grid Background="Black">
+        <TextBox x:Name="message" Height="22" Width="227" Text="Busy: I will reply in 5 mintues" Background="White" HorizontalAlignment="Left" Margin="12,29,0,0" VerticalAlignment="Top"></TextBox>
+        <Button x:Name="autoReply" Width="109" Content="Start Auto Reply" Click="autoReply_Click" HorizontalAlignment="Right" Margin="0,29,12,0" Height="20" VerticalAlignment="Top"></Button>
+        <Label Content="@SamarthShah_" Foreground="White" Height="32" HorizontalAlignment="Left" Margin="126,79,0,0" Name="label1" VerticalAlignment="Top" Width="95" />
+    </Grid>
+
+</Window>
